@@ -11,3 +11,5 @@ result=Runner.run_sync(
     agent,
     query,
 )
+
+print(result.final_output)
